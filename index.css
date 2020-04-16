@@ -1,0 +1,67 @@
+body{
+	margin: 0 0 0 0;
+	line-height: 1.5;
+	background: #fdfdfd;
+}
+
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	padding: 20px 100px 100px 100px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: #475865;
+	overflow: hidden;
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	transition: none 150ms ease-out;
+	transition-property: color, background;
+}
+  
+/* Change the color of links on hover */
+.topnav a:hover {
+	background: #0060a0;
+	color: white;
+}
+  
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: #069ad9;
+	color: white;
+}
+
+/* Class for left floating */
+.topnav a.right {
+	float: right;
+ }
+
+div.footer{ 
+	position: fixed;     
+	text-align: center;    
+	bottom: 0px; 
+	width: 100%;
+	background-color: #475865;
+}
+
+p.footer{
+	padding: 0px 0px 0px 0px;
+	color: white;
+	font-size: 18px;
+}
