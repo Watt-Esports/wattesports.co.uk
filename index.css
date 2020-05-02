@@ -4,7 +4,6 @@ body{
 	background: #fdfdfd;
 }
 
-
 h1{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 50px;
@@ -12,8 +11,8 @@ h1{
 
 p{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 22px;
-	padding: 20px 100px 100px 100px;
+	padding: 100x 100px 100px 100px;
+	text-align: middle;
 }
 
 /* Add a black background color to the top navigation */
@@ -21,7 +20,7 @@ p{
 	background-color: #475865;
 	overflow: hidden;
 }
-  
+
 /* Style the links inside the navigation bar */
 .topnav a {
 	float: left;
@@ -34,13 +33,13 @@ p{
 	transition: none 150ms ease-out;
 	transition-property: color, background;
 }
-  
+
 /* Change the color of links on hover */
 .topnav a:hover {
 	background: #0060a0;
 	color: white;
 }
-  
+
 /* Add a color to the active/current link */
 .topnav a.active {
 	background-color: #069ad9;
@@ -52,16 +51,46 @@ p{
 	float: right;
  }
 
-div.footer{ 
-	position: fixed;     
-	text-align: center;    
-	bottom: 0px; 
-	width: 100%;
-	background-color: #475865;
+/* Class for adding a background image - Not being used right now as I can't get it to work correctly */
+.background{
+	background: url(Logos/Wattesportspartial.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: auto 20%;
 }
 
-p.footer{
+/* Class for the title */
+.title{
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	padding: top;
+}
+
+/* Class for the subtitle */
+.subtitle {
+	text-align: center;
+	font-size: 16px;
+	width: 80%;
+	margin: auto;
+}
+
+/* Class for the main text*/
+.main {
+	text-align: center;
+	font-size: 22px;
+	width: 60%;
+	margin: auto;
+}
+
+div.footer{
+	position: fixed;
+	text-align: center;
+	bottom: 0px;
+	width: 100%;
+	background-color: #475865;
 	padding: 0px 0px 0px 0px;
 	color: white;
 	font-size: 18px;
+	vertical-align: middle;
 }
