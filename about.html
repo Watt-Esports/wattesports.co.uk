@@ -1,93 +1,121 @@
 <!DOCTYPE html>
 
 <head>
-<title> Watt Esports </title>
+	<title> Watt Esports </title>
 
-<link rel="apple-touch-icon" sizes="180x180" href="logos/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="logos/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="logos/favicon-16x16.png">
-<link rel="manifest" href="logos/site.webmanifest">
-<link rel="mask-icon" href="logos/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+	<link rel="apple-touch-icon" sizes="180x180" href="logos/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="logos/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="logos/favicon-16x16.png">
+	<link rel="manifest" href="logos/site.webmanifest">
+	<link rel="mask-icon" href="logos/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 
 
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-<link href="index.css" rel="stylesheet">
-
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="index.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 </head>
 <body>
 	<header>
-		<div class="topnav">
-			<a href="home.html">Home</a>
-			<a href="news.html">News</a>
-			<a href="teams.html">Teams</a>
-			<a class="active" href="about.html">About</a>
-			<a class="right" href="https://discord.wattesports.co.uk">Discord</a>
-		</div>
-		<div>
-			<a href=https://www.hw.ac.uk/> <img src="logos/hw-logo.svg" alt="Heriot Watt Logo" width="170" style="float: right;padding: 20px 20px 20px 20px;"> </a>
-		</div>
-			<div class="title">
-			<h1> About Us </h1>
-		</div>
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-stormgrey">
+			<a class="navbar-brand" href="home.html">
+				<!-- <img>Could put logo here -->
+				Watt Esports
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="news.html">News</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="teams.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Teams
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="team_lol.html">League of Legends</a>
+							<a class="dropdown-item" href="team_csgo.html">CS:GO</a>
+							<a class="dropdown-item" href="team_overwatch.html">Overwatch</a>
+							<a class="dropdown-item" href="team_rainbowsix.html">Rainbow 6: Siege</a>
+							<a class="dropdown-item" href="team_dota.html">Dota 2</a>
+						</div>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="https://discord.wattesports.co.uk">Discord</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 
 	</header>
 	<main>
 		<div class="main">
-			<p style = "font-size: 30px">Our Social Media:</p>
+			<p style="font-size: 30px">Our Social Media:</p>
 			<p>
-			<a href="https://discord.wattesports.co.uk"> <img src="logos/discord.png" width=75px></a> &emsp;
-			<a href="https://twitter.com/WattEsports"> <img src="logos/twitter.png" width=75px></a> &emsp;
-			<a href="https://www.facebook.com/WattEsports"> <img src="logos/facebook.png" width=75px></a> &emsp;
-			<a href="https://www.instagram.com/hwuesports/"> <img src="logos/instagram.png" width=75px></a> &emsp;
-			<a href="mailto:heriotwattesports@gmail.com"> <img src="logos/gmail.png" width=75px> </a></p>
+				<a href="https://discord.wattesports.co.uk"> <img src="logos/discord.png" width=75px></a> &emsp;
+				<a href="https://twitter.com/WattEsports"> <img src="logos/twitter.png" width=75px></a> &emsp;
+				<a href="https://www.facebook.com/WattEsports"> <img src="logos/facebook.png" width=75px></a> &emsp;
+				<a href="https://www.instagram.com/hwuesports/"> <img src="logos/instagram.png" width=75px></a> &emsp;
+				<a href="mailto:heriotwattesports@gmail.com"> <img src="logos/gmail.png" width=75px> </a>
+			</p>
 		</div>
 		<br>
 		<div class="main">
-			<p style = "font-size: 30px">The Committee:</p>
+			<p style="font-size: 30px">The Committee:</p>
 		</div>
 		<div>
-		<table style="margin-left:auto;margin-right:auto;font-family:'Montserrat', sans-serif;">
-			<tr>
-				<th>President</th>
-				<th>Vice President</th>
-				<th>Treasurer</th>
-				<th>Secretary</th>
-				<th>Discord Manager</th>
-				<th>Esports Coordinator</th>
-				<th>Community Coordinator</th>
-			</tr>
-			<tr>
-				<th><img src=committee/kyle.png width=200px></th>
-				<th><img src=committee/gernemi.png width=200px></th>
-				<th><img src=committee/peter.png width=200px></th>
-				<th><img src=committee/toby.png width=200px></th>
-				<th><img src=committee/nico.png width=200px></th>
-				<th><img src=committee/kieran.png width=200px></th>
-				<th><img src=committee/malek.png width=200px></th>
-			</tr>
-			<tr>
-				<th>Kyle Woods</th>
-				<th>Ewan Sinclair</th>
-				<th>Peter Stather</th>
-				<th>Toby Smith</th>
-				<th>Nicolas Sparagano</th>
-				<th>Kieran Bourbery</th>
-				<th>Malek Kouadria</th>
-			</tr>
+			<table style="margin-left:auto;margin-right:auto;font-family:'Montserrat', sans-serif;">
+				<tr>
+					<th>President</th>
+					<th>Vice President</th>
+					<th>Treasurer</th>
+					<th>Secretary</th>
+					<th>Discord Manager</th>
+					<th>Esports Coordinator</th>
+					<th>Community Coordinator</th>
+				</tr>
+				<tr>
+					<th><img src=committee/kyle.png width=200px></th>
+					<th><img src=committee/gernemi.png width=200px></th>
+					<th><img src=committee/peter.png width=200px></th>
+					<th><img src=committee/toby.png width=200px></th>
+					<th><img src=committee/nico.png width=200px></th>
+					<th><img src=committee/kieran.png width=200px></th>
+					<th><img src=committee/malek.png width=200px></th>
+				</tr>
+				<tr>
+					<th>Kyle Woods</th>
+					<th>Ewan Sinclair</th>
+					<th>Peter Stather</th>
+					<th>Toby Smith</th>
+					<th>Nicolas Sparagano</th>
+					<th>Kieran Bourbery</th>
+					<th>Malek Kouadria</th>
+				</tr>
 
-		</table>
-	</div>
+			</table>
+		</div>
 	</main>
 
-	<footer>
-		<div class="footer">
-			<p class="footer">&copy Watt Esports 2020, Sponsored by our affiliates; The Hive Nightclub and Venue Edinburgh, and Heriot Watt Student Union.
-				<a style="vertical-align: middle; "href=https://clubhive.co.uk/><img src="logos/hive_white_cropped.png" alt="Hive-Logo" width=55 ><a/>
-				<a style="vertical-align: middle; "href=https://www.hwunion.com/><img src="logos/union_pink_cropped.png" alt="HWUnion-Logo" width=55 ><a/>
-			</p>
-		</div>
+	<footer class="text-center fixed-bottom text-white bg-stormgrey">
+		<p style="margin:4px 0 4px 0">
+			&copy; Watt Esports 2020, Sponsored by our affiliates; The Hive Nightclub and Venue Edinburgh, and Heriot Watt Student Union.
+			<a href=https://clubhive.co.uk /><img src="logos/hive_white_cropped.png" alt="Hive-Logo" width=55><a />
+			<a href=https://www.hwunion.com /><img src="logos/union_pink_cropped.png" alt="HWUnion-Logo" width=55><a />
+		</p>
 	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
