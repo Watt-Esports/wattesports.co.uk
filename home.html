@@ -1,55 +1,107 @@
 <!DOCTYPE html>
-
+<html>
 <head>
-<title> Watt Esports </title>
+	<title> Watt Esports </title>
 
-<link rel="apple-touch-icon" sizes="180x180" href="logos/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="logos/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="logos/favicon-16x16.png">
-<link rel="manifest" href="logos/site.webmanifest">
-<link rel="mask-icon" href="logos/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+	<link rel="apple-touch-icon" sizes="180x180" href="logos/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="logos/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="logos/favicon-16x16.png">
+	<link rel="manifest" href="logos/site.webmanifest">
+	<link rel="mask-icon" href="logos/safari-pinned-tab.svg" color="#5bbad5">
+	<meta charset="utf-8" />
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 
-
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-<link href="index.css" rel="stylesheet">
-
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="index.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 </head>
 <body>
 	<header>
-		<div class="topnav">
-			<a class="active" href="home.html">Home</a>
-			<a href="news.html">News</a>
-			<a href="teams.html">Teams</a>
-			<a href="about.html">About</a>
-			<a class="right" href="https://discord.wattesports.co.uk">Discord</a>
-		</div>
+		<!-- NAVBAR -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="home.html">
+				<!-- <img>Could put logo here -->
+				Watt Esports
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="news.html">News</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="teams.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Teams
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">Here's a team</a>
+							<a class="dropdown-item" href="#">Another team</a>
+							<a class="dropdown-item" href="#">Some other team</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="https://discord.wattesports.co.uk">Discord</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<!-- HWU LOGO -->
 		<div>
-			<a href=https://www.hw.ac.uk/> <img src="logos/hw-logo.svg" alt="Heriot Watt Logo" width="170" style="float: right;padding: 20px 20px 20px 20px;"> </a>
-		</div>
-		<div class="title">
-			<h1> Heriot Watt Esports Society </h1>
+			<a href=https://www.hw.ac.uk> <img src="logos/hw-logo.svg" alt="Heriot Watt Logo" width="170" style="float: right;padding: 20px 20px 20px 20px;"> </a>
 		</div>
 
-		<div class="subtitle">
-			<! Can someone make this subtitle closer to the title text? it seems fairly spaced, and it's already got minimum padding>
-			<p> The Best Scottish University Society In The <img src="logos/NSE.png" alt="NSE Logo" width="44"> Competitive brackets </p> <! Information about our NSE placing in the 2020 year>
-		</div>
+		<!-- TITLE -->
+		<h1 class="display-3 text-center"> Heriot Watt Esports Society </h1>
+
+		<!-- SUBTITLE -->
+		<! Can someone make this subtitle closer to the title text? it seems fairly spaced, and it's already got minimum padding>
+		<p class="lead text-center"><em> The best Scottish University Society in the <img src="logos/NSE.png" alt="NSE Logo" width="44"> competitive brackets </em></p> <! Information about our NSE placing in the 2020 year>
 	</header>
+
 	<main>
-		<div class="main">
-			<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. Even so much so that I'm using it now.</p>
+		<div class="text-center">
+			<p>
+				Bacon ipsum dolor amet corned beef brisket landjaeger hamburger, ham filet mignon ground round kielbasa. Kielbasa pancetta pork capicola jerky tri-tip boudin. Shankle ham hock turducken burgdoggen drumstick, ground round meatball boudin pork chop frankfurter salami chicken jowl. Salami flank corned beef pork loin, tongue jowl cow jerky shoulder fatback spare ribs short loin leberkas chislic. Pastrami bresaola frankfurter short loin pancetta beef ribs rump shoulder corned beef leberkas kielbasa ribeye. Tongue jerky spare ribs salami, pancetta bacon jowl pig.
+			</p>
+		</div>
+
+		<br />
+
+		<div class="text-center">
+			<blockquote class="blockquote">
+				<p class="mb-0">This is an incredibly friendly and engaging community, I'd totally play video games with them</p>
+				<footer class="blockquote-footer">Nicolas Nicolauze<cite title="Source Title">(Watt Esports Discord Manager)</cite></footer>
+			</blockquote>
+			<p>
+				Pancetta ball tip pork loin frankfurter, burgdoggen kielbasa landjaeger capicola shank tri-tip short ribs biltong ribeye kevin ham. Chicken beef ribs swine venison, kielbasa shank pastrami jowl beef. Tri-tip pork loin fatback alcatra drumstick, venison bresaola salami ham burgdoggen beef. Ball tip shoulder chislic capicola ribeye. Shoulder meatloaf rump turkey, corned beef boudin strip steak leberkas pig short ribs bresaola. Rump tri-tip chicken short ribs ribeye. Shank salami pastrami ground round.
+			</p>
 		</div>
 	</main>
 
-	<footer>
-		<div class="footer">
-			<p class="footer">&copy Watt Esports 2020, Sponsored by our affiliates; The Hive Nightclub and Venue Edinburgh, and Heriot Watt Student Union.
-				<a style="vertical-align: middle; "href=https://clubhive.co.uk/><img src="logos/hive_white_cropped.png" alt="Hive-Logo" width=55 ><a/>
-				<a style="vertical-align: middle; "href=https://www.hwunion.com/><img src="logos/union_pink_cropped.png" alt="HWUnion-Logo" width=55 ><a/>
-			</p>
-		</div>
+	<footer class="text-center fixed-bottom text-white bg-dark">
+		<p>
+			&copy; Watt Esports 2020, Sponsored by our affiliates; The Hive Nightclub and Venue Edinburgh, and Heriot Watt Student Union.
+			<a href=https://clubhive.co.uk /><img src="logos/hive_white_cropped.png" alt="Hive-Logo" width=55><a />
+			<a href=https://www.hwunion.com /><img src="logos/union_pink_cropped.png" alt="HWUnion-Logo" width=55><a />
+		</p>
 	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
+
+</html>
