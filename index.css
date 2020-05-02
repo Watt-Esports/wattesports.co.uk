@@ -19,7 +19,7 @@ p{
 	background-color: #475865;
 	overflow: hidden;
 }
-  
+
 /* Style the links inside the navigation bar */
 .topnav a {
 	float: left;
@@ -32,13 +32,13 @@ p{
 	transition: none 150ms ease-out;
 	transition-property: color, background;
 }
-  
+
 /* Change the color of links on hover */
 .topnav a:hover {
 	background: #0060a0;
 	color: white;
 }
-  
+
 /* Add a color to the active/current link */
 .topnav a.active {
 	background-color: #069ad9;
@@ -52,7 +52,7 @@ p{
 
 /* Class for adding a background image - Not being used right now as I can't get it to work correctly */
 .background{
-	background: url(https://cdn.discordapp.com/attachments/698264458996351016/706052590294663238/Wattesportspartial.png);
+	background: url(Logos/Wattesportspartial.png);
 	background-repeat: no-repeat;
 	background-position: bottom center;
 	background-size: auto 20%;
@@ -82,10 +82,10 @@ p{
 	margin: auto;
 }
 
-div.footer{ 
-	position: fixed;     
-	text-align: center;    
-	bottom: 0px; 
+div.footer{
+	position: fixed;
+	text-align: center;
+	bottom: 0px;
 	width: 100%;
 	background-color: #475865;
 }
