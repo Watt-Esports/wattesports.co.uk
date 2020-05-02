@@ -12,6 +12,7 @@ h1{
 p{
 	font-family: 'Montserrat', sans-serif;
 	padding: 100x 100px 100px 100px;
+	text-align: middle;
 }
 
 /* Add a black background color to the top navigation */
@@ -88,10 +89,8 @@ div.footer{
 	bottom: 0px;
 	width: 100%;
 	background-color: #475865;
-}
-
-p.footer{
 	padding: 0px 0px 0px 0px;
 	color: white;
 	font-size: 18px;
+	vertical-align: middle;
 }
