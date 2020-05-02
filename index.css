@@ -4,7 +4,6 @@ body{
 	background: #fdfdfd;
 }
 
-
 h1{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 50px;
@@ -12,8 +11,7 @@ h1{
 
 p{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 22px;
-	padding: 20px 100px 100px 100px;
+	padding: 100x 100px 100px 100px;
 }
 
 /* Add a black background color to the top navigation */
@@ -51,6 +49,38 @@ p{
 .topnav a.right {
 	float: right;
  }
+
+/* Class for adding a background image - Not being used right now as I can't get it to work correctly */
+.background{
+	background: url(https://cdn.discordapp.com/attachments/698264458996351016/706052590294663238/Wattesportspartial.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size: auto 20%;
+}
+
+/* Class for the title */
+.title{
+	text-align: center;
+	width: 60%;
+	margin: auto;
+	padding: top;
+}
+
+/* Class for the subtitle */
+.subtitle {
+	text-align: center;
+	font-size: 16px;
+	width: 80%;
+	margin: auto;
+}
+
+/* Class for the main text*/
+.main {
+	text-align: center;
+	font-size: 22px;
+	width: 60%;
+	margin: auto;
+}
 
 div.footer{ 
 	position: fixed;     
