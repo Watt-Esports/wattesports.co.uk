@@ -83,14 +83,6 @@ p{
 	margin: auto;
 }
 
-div.footer{
-	position: fixed;
-	text-align: center;
-	bottom: 0px;
-	width: 100%;
+.bg-stormgrey {
 	background-color: #475865;
-	padding: 0px 0px 0px 0px;
-	color: white;
-	font-size: 18px;
-	vertical-align: middle;
 }
