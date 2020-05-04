@@ -84,16 +84,16 @@ p{
 	margin: auto;
 }
 
-.bg-stormgrey {
+.bgStormgrey {
 	background-color: #475865;
 }
-
 
 .h_iframe iframe {
     width:100%;
     height:600px;
-		position: absolute;
-		left: 0%;
+    position: absolute;
+	  left: 0%;
+
 }
 .h_iframe {
     height: 100%;
