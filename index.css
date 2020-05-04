@@ -2,7 +2,7 @@ body{
 	margin: 0 0 0 0;
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.5;
-	background: #fdfdfd;
+	background-image: url(images/background.png);
 }
 
 h1{
