@@ -3,6 +3,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.5;
 	background-image: url(images/background.png);
+	background-repeat: no-repeat;
 }
 
 h1{
