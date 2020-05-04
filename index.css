@@ -3,6 +3,7 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	line-height: 1.5;
 	background-image: url(images/background.png);
+	background-repeat: no-repeat;
 }
 
 h1{
@@ -51,14 +52,6 @@ p{
 .topnav a.right {
 	float: right;
  }
-
-/* Class for adding a background image - Not being used right now as I can't get it to work correctly */
-.background{
-	background: url(Logos/Wattesportspartial.png);
-	background-repeat: no-repeat;
-	background-position: bottom center;
-	background-size: auto 20%;
-}
 
 /* Class for the title */
 .title{
