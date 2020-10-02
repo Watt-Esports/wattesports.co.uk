@@ -94,3 +94,8 @@ html, body {
 	height: 45px;
 	margin-top: -45px;
 }
+
+/* center align text in Committee cards */
+.card-body {
+	text-align: center;
+}
